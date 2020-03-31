@@ -1,11 +1,11 @@
 # Site settings
-author: Catherine Price
-title: 
+author: Cat Price
+title: A Hot Cup of Java
 header-img: img/home-bg.png
 email: catprice444@gmail.com
-copyright_name: Catherine Price
+copyright_name: Cat Price
 description: > # this means to ignore newlines until "baseurl:"
-  
+  My adventures in learning to code
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  catprice444
