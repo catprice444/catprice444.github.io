@@ -1,0 +1,55 @@
+---
+layout: post
+title:      "Arrays....."
+date:       2020-05-02 14:04:18 +0000
+permalink:  arrays
+---
+
+
+Arrays are such a complex part of coding, yet the idea of them is so simple. Arrays are meant to store data that can be called on later. The best part about arrays is that they can store anything; strings, integers, ranges, etc. While all arrays do have to be defined in ruby, they are easy to define as well. 
+
+To start a ruby array you choose a name, say we name our array "pets" then you use brackets to mark what you want to be inputed in the array. 
+
+*Example: *
+
+`pets = ["cat", "dog", "fish", "bird", "turtle", "hamster"]`
+
+Arrays are great because they can then be used in your code later as a way to input data seamlessly or you can use the code to pull data based off of certain characteristics of the items in your array. An example of this would be if I wanted to figure out how many words were in your array, you would use the '.length' element. 
+
+```
+["cat", "dog", "fish", "bird", "turtle", "hamster"].length       #=> 6
+```
+
+One of the most important things to remember about arrays though are how they count the location of each item within an array. Arrays count each item through an index, it starts by counting the first item as an index of 0, the second item is an index of 1 and so on.  This is an extremely important thing to remember when accessing the elements, yet it is something so subtle that I am sure even the most advanced coder forgets to check. 
+
+If we wanted to pull the word 'fish' out of our array we would input 
+
+```
+pets(2)     #=>fish
+```
+
+This is because we have to remember that 'cat' has an index of 0, 'dog' would have an index of 1 so 'fish' would have an index of 2. 
+
+If I where to put- 
+
+```
+pets(10)    #=> nil
+```
+
+the answer would be nil because we only have 6 items (or up to an index of 5) in our 'pets' array.
+
+One other piece of information to remember when pulling items from an array, is that you can move backwards and use negative numbers to pull items from our array. The last item in your array is also equal to -1 so then you would move backwards from there. 
+
+Here are some examples using our original 'pets' array:
+
+```
+pets = ["cat", "dog", "fish", "bird", "turtle", "hamster"]
+
+pets(-2)    #=>turtle
+pets(-4)   #=>fish
+pets(-1)  #=>hamster
+```
+
+Arrays can be a lot of fun and very useful, as long as you remember how to accurately pull the data based off of how the index labels each item. 
+
+
