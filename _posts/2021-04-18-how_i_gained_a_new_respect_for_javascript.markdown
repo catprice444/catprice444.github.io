@@ -1,7 +1,7 @@
 ---
 layout: post
 title:      "How I gained a new respect for Javascript"
-date:       2021-04-18 18:46:36 +0000
+date:       2021-04-18 14:46:36 -0400
 permalink:  how_i_gained_a_new_respect_for_javascript
 ---
 
